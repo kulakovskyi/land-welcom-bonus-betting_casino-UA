@@ -1,0 +1,176 @@
+@media screen and (max-width: 1350px)
+  .bonus
+    &__text
+      padding: 0 45px 0 0
+
+@media screen and (max-width: 1270px)
+  .bonus
+    &__name
+      font-size: 13px
+      line-height: 17px
+      span
+        font-size: 11px
+        line-height: 14px
+    &__bg
+      width: 110%
+      height: 100%
+      top: 0
+      left: -28%
+    &__text
+      &-promotion
+        padding: 5px 13px 2px
+        font-size: 18px
+        line-height: 23px
+        margin: 0 0 14px 0
+      &-welcom
+        font-size: 28px
+        line-height: 30px
+        margin: 0 0 10px 0
+      &-bonus
+        font-size: 86px
+        line-height: 76px
+        margin: 0 0 13px 0
+      &-spin
+        padding: 5px 17px 3px
+        font-size: 33px
+        line-height: 43px
+        &::before
+          width: 33px
+          height: 28px
+          top: -13px
+          left: -15px
+  .info
+    &__item
+      padding: 40px
+      &-title
+        font-size: 35px
+        line-height: 40px
+        margin: 0 0 10px 0
+
+@media screen and (max-width: 975px)
+  .info
+    margin-top: -25px
+  .bonus
+    padding: 45px 0 75px 0
+    &__bg
+      left: -37%
+      width: 132%
+
+@media screen and (max-width: 765px)
+  .bonus
+    &__text
+      padding: 0
+    &__bg
+      left: -39%
+      width: 140%
+  .info
+    &__container
+      padding: 0 15px
+    &__list
+      display: grid
+      grid-template-columns: calc(50% - 10px) calc(50% - 10px)
+      gap: 20px
+    &__item
+      padding: 40px
+
+@media screen and (max-width: 745px)
+  .bonus
+    &__text
+      transform-origin: right center
+      transform: scale(0.9)
+  .info
+    &__list
+      grid-template-columns: 100%
+
+@media screen and (max-width: 670px)
+  .bonus
+    &__text
+      transform-origin: right center
+      transform: scale(0.8)
+
+@media screen and (max-width: 600px)
+  .info
+    margin: 0
+    &__list
+      gap: 15px
+    &__item
+      padding: 30px
+      &-title
+        font-size: 35px
+        line-height: 40px
+  .bonus
+    padding: 0
+    &__name
+      bottom: auto
+      top: 26%
+      left: auto
+      right: 50%
+      transform: translateX(110%)
+    &__container
+      justify-content: stretch
+      padding: 0
+    &__text
+      width: 100%
+      transform: scale(1)
+      align-items: stretch
+      &-welcom
+        order: 1
+        font-size: 33px
+        line-height: 43px
+        padding: 5px 15px 3px
+        background: $magenta
+        color: $blue
+        text-align: center
+        margin: 0 0 20px 0
+      &-promotion
+        order: 2
+        align-self: flex-end
+        margin: 0 20px 290px 0
+        font-size: 20px
+        line-height: 26px
+        padding: 5px 13px 3px
+      &-bonus
+        order: 3
+        align-self: center
+        font-size: 100px
+        line-height: 84px
+        margin: 0 0 10px 0
+      &-spin
+        order: 4
+        align-self: center
+        font-size: 40px
+        line-height: 52px
+        &::before
+          width: 44px
+          height: 38px
+          top: -21px
+          left: -19px
+    &__bg
+      width: 100%
+      height: 100%
+      top: 0
+      left: 0
+      background: url('../img/yarmolenko-mob.jpg') no-repeat 50% 0%/cover
+
+@media screen and (max-width: 370px)
+  .bonus
+    &__text
+      &-welcom
+        font-size: 27px
+        line-height: 36px
+      &-bonus
+        font-size: 80px
+        line-height: 84px
+      &-spin
+        font-size: 32px
+        line-height: 45px
+      &-promotion
+        margin: 0 15px 290px 0
+        font-size: 18px
+        line-height: 23px
+
+  .info
+    &__item
+      &-title
+        font-size: 30px
+        line-height: 35px

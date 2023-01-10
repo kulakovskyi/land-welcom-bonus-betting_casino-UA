@@ -37,16 +37,6 @@ details summary::-webkit-details-marker
   display: none
 
 
-
-
-
-
-    //picture
-    //source(media="(min-width: 1025px)" srcset="img/football-desc.png")
-    //source(media="(min-width: 640px)" srcset="img/football-tab.png")
-    //source(media="(min-width: 280px)" srcset="img/football-mob.png")
-    //img(src="img/football-desc.png" alt="Favbet")
-
 body
   -webkit-tap-highlight-color: rgba(0,0,0,0)
   overscroll-behavior: none
@@ -142,6 +132,10 @@ body
   margin-bottom: 135px
   position: relative
   z-index: 3
+  &__container
+    max-width: 1270px
+    margin: 0 auto
+    padding: 0 20px
   &__list
     display: grid
     grid-template-columns: calc(50% - 15px) calc(50% - 15px)
